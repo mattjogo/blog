@@ -6,8 +6,8 @@ google_analytics:
 
 name: mattjo
 title: 그럼에도 불구하고
-description: 생각을 엮습니다.
-url: http://mattjo.net
+description: 생각을 엮습니다
+url: https://mattjo.net
 twitter_username: mattjgo
 default_img: /assets/images/profile.jpg
 
@@ -20,7 +20,7 @@ disqus: mattjogo
 # Author settings
 author:
   - name: Matthew Jo
-    bio: 한 줄로 나 자신을 소개하는건 매번 어렵습니다.
+    bio: 한 줄로 나 자신을 소개하는건 어찌 매번 어려울까요
     url: https://mattjo.net
 
 # Pagination settings
