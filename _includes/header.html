@@ -1,5 +1,5 @@
 <header class="header">
-  <a class="header__title" href="{{ '/' | absolute_url }}">{{ site.title }}</a>
+    <a class="header__title" href="{{ '/' | prepend: site.baseurl }}"><img src="{{ '/assets/images/logo.png' | prepend: site.baseurl }}" width="40%" height="40%" style="padding: 5px; background: #fff;"></a>
 
   {% include navigation.html %}
 </header>

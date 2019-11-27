@@ -1,44 +1,27 @@
 # Site/SEO settings
-email: okay@samesies.io
-baseurl: ""
-permalink: /:year/:month/:day/:title/
+email: highbrighten@gmail.com
+baseurl: "/blog"
+permalink: /:year/:month/:title
 google_analytics: 
 
-name: Thomas Vaeth
-title: The Barber Theme
-description: >
-  Barber is a blog theme for Jekyll built by Thomas Vaeth for Samesies using HTML, Sass, and JavaScript.
-url: http://barber.samesies.io
-twitter_username: thomasvaeth
-default_img: /assets/images/seo.jpg
-social:
-  - name: twitter
-    url: https://twitter.com/thomasvaeth
-  - name: instagram
-    url: https://www.instagram.com/thomas.vaeth/
-  - name: linkedin
-    url: https://www.linkedin.com/in/thomasvaeth/
-  - name: github
-    url: https://github.com/samesies
-  - name: codepen
-    url: https://codepen.io/thomasvaeth/
+name: mattjo
+title: 그럼에도 불구하고
+description: 생각을 엮습니다.
+url: http://mattjo.net
+twitter_username: mattjgo
+default_img: /assets/images/profile.jpg
 
 # Contact settings
-contact_img: /assets/images/placeholder-28.jpg
-formcarry: https://formcarry.com/s/HkIo0nMb7
+formcarry: https://formcarry.com/s/k3RuRf1t-Sv
 
 # Disqus settings
-disqus: test-apkdzgmqhj
-
-# MailChimp settings
-mailchimp_action: https://samesies.us17.list-manage.com/subscribe/post-json?u=66ddf555dab480e6a8606430b&amp;id=89b3ee034f
-mailchimp_input: b_66ddf555dab480e6a8606430b_89b3ee034f
+disqus: mattjogo
 
 # Author settings
 author:
-  - name: Thomas Vaeth
-    bio: Thomas Vaeth was born in New York, raised in Pennsylvania, and transplanted in Washington. He was a Web Developer at Urban Influence, but now he's a Software Engineer at Getty Images.
-    url: http://thomasvaeth.com
+  - name: Matthew Jo
+    bio: 한 줄로 나 자신을 소개하는건 매번 어렵습니다.
+    url: https://mattjo.net
 
 # Pagination settings
 pagination:
@@ -60,7 +43,7 @@ autopages:
     layouts: 
       - 'tag.html'
     title: 'The Barber Theme'
-    permalink: '/tag/:tag'
+    permalink: '/:tag'
     slugify:
       mode: raw
       cased: true
