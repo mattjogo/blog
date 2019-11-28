@@ -4,7 +4,7 @@ permalink: /about
 title: 🧢
 ---
 
-![profile](/images/profile.png)
+![profile](/images/profile.jpg)
 
 #### Matthew Jo
 
