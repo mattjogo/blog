@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400, 700&display=swap&subset=cyrillic, latin-ext);
-@import url(https: //fonts.googleapis.com/css?family=Song+Myung&display=swap&subset=korean);
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400, 700&display=swap&subset=cyrillic, latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Song+Myung&display=swap');
 
-    .form__message, .header__list>*, .header__title, .post__author, .posts__next, .related__text, .subscribe__error, .subscribe__title, cite, h1, h2, h3, h4, h5, h6, label {
+.form__message, .header__list>*, .header__title, .post__author, .posts__next, .related__text, .subscribe__error, .subscribe__title, cite, h1, h2, h3, h4, h5, h6, label {
     font-weight: 700;
 }
 .post__author, .post__bio, .posts__text, .related__text {
@@ -290,7 +290,7 @@ pre {
 }
 code {
     padding: .25em .5em;
-    color: #000;
+    color: #fff;
     background: transparent;
 }
 form {
@@ -973,6 +973,7 @@ main {
     -ms-flex-align: center;
     align-items: center;
     word-break: keep-all;
+    text-align: justify;
     font-size: 12px;
     letter-spacing: 1px;
 }
@@ -1127,6 +1128,7 @@ main {
     display: block;
 }
 .posts__text {
+    text-align: justify;
     font-weight: 400;
     word-break: keep-all;
 }
