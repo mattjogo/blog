@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400, 700&display=swap&subset=cyrillic, latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap&subset=cyrillic,latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Song+Myung&display=swap');
 
 .form__message, .header__list>*, .header__title, .post__author, .posts__next, .related__text, .subscribe__error, .subscribe__title, cite, h1, h2, h3, h4, h5, h6, label {
