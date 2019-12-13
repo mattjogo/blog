@@ -626,7 +626,7 @@ main {
     padding-left: 2em;
 }
 }.header__title {
-    padding: 0;
+    padding: 0px;
 }
 .header__list>* {
     font-size: .8em;
@@ -973,7 +973,7 @@ main {
     -ms-flex-align: center;
     align-items: center;
     word-break: keep-all;
-    text-align: justify;
+    text-align: left;
     font-size: 12px;
     letter-spacing: 1px;
 }
@@ -1128,7 +1128,7 @@ main {
     display: block;
 }
 .posts__text {
-    text-align: justify;
+    text-align: left;
     font-weight: 400;
     word-break: keep-all;
 }
@@ -1189,7 +1189,7 @@ main {
 .posts-third {
     width: 33.33333%}
 .related {
-    background-color: #121212;
+    background-color: transparent;
 }
 .related__container {
     display: -webkit-box;
