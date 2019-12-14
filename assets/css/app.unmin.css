@@ -1,22 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
-@font-face {
-    font-family: 'NanumSquareRound';
-    font-style: normal;
-    font-weight: 400;
-    font-display: fallback;
-    src: local('NanumSquareRound Regular');
-    src: url(/blog/assets/font/NanumSquareRound-Regular.eot);
-    src: url(/blog/assets/font/NanumSquareRound-Regular.eot?#iefix) format('embedded-opentype'), url(/assets/font/NanumSquareRound-Regular.woff) format('woff'), url(/assets/font/NanumSquareRound-Regular.woff2) format('woff2');
-}
-@font-face {
-    font-family: 'NanumSquareRound';
-    font-style: normal;
-    font-weight: 700;
-    font-display: fallback;
-    src: local('NanumSquareRound Bold');
-    src: url(/blog/assets/font/NanumSquareRound-Bold.eot);
-    src: url(/blog/assets/font/NanumSquareRound-Bold.eot?#iefix) format('embedded-opentype'), url(/assets/font/NanumSquareRound-Bold.woff) format('woff'), url(/assets/font/NanumSquareRound-Bold.woff2) format('woff2');
-}
+@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
 
 .form__message, .header__list>*, .header__title, .post__author, .posts__next, .related__text, .subscribe__error, .subscribe__title, cite, h1, h2, h3, h4, h5, h6, label {
     font-weight: 700;
@@ -454,6 +437,7 @@ iframe {
     width: 100%}
 body {
     font-family: Raleway, NanumSquareRound, sans-serif;
+    font-display: swap;
     line-height: 1.7;
     color: #fff;
     background-color: transparent;
@@ -500,6 +484,7 @@ h2:not(.posts__text):not(.related__text) {
 blockquote, q {
     margin: 0 0 1.5rem;
     font-family: Raleway, NanumSquareRound, sans-serif;
+    font-display: swap;
     font-weight: 400;
 }
 @media (min-width:32em) {
@@ -509,6 +494,7 @@ blockquote, q {
 }cite {
     display: block;
     font-family: Raleway, NanumSquareRound, sans-serif;
+    font-display: swap;
     font-size: 14px;
     font-style: normal;
     color: #fff;
@@ -996,6 +982,7 @@ main {
 }
 #style-guide #markdown, .post-layout #markdown {
     font-family: Raleway, NanumSquareRound, sans-serif;
+    font-display: swap;
 }
 #markdown>* {
     min-width: 100%}
@@ -1008,6 +995,7 @@ main {
 #markdown h1, #markdown h2, #markdown h3, #markdown h4, #markdown h5, #markdown h6 {
     margin-bottom: .5rem;
     font-family: Raleway, NanumSquareRound, sans-serif;
+    font-display: swap;
 }
 #markdown h1 {
     font-size: 2.25em;
@@ -1050,6 +1038,7 @@ main {
     margin-bottom: 0;
     font-size: 14px;
     font-family: Raleway, NanumSquareRound, sans-serif;
+    font-display: swap;
     font-style: italic;
     word-break: keep-all;
     padding-left: 15px;
