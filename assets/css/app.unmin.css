@@ -1,5 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap&subset=cyrillic,latin-ext');
-@import url('https://fonts.googleapis.com/css?family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+@font-face {
+    font-family: 'NanumSquareRound';
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: local('NanumSquareRound Regular');
+    src: url(/blog/assets/font/NanumSquareRound-Regular.eot);
+    src: url(/blog/assets/font/NanumSquareRound-Regular.eot?#iefix) format('embedded-opentype'), url(/assets/font/NanumSquareRound-Regular.woff) format('woff'), url(/assets/font/NanumSquareRound-Regular.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'NanumSquareRound';
+    font-style: normal;
+    font-weight: 700;
+    font-display: fallback;
+    src: local('NanumSquareRound Bold');
+    src: url(/blog/assets/font/NanumSquareRound-Bold.eot);
+    src: url(/blog/assets/font/NanumSquareRound-Bold.eot?#iefix) format('embedded-opentype'), url(/assets/font/NanumSquareRound-Bold.woff) format('woff'), url(/assets/font/NanumSquareRound-Bold.woff2) format('woff2');
+}
 
 .form__message, .header__list>*, .header__title, .post__author, .posts__next, .related__text, .subscribe__error, .subscribe__title, cite, h1, h2, h3, h4, h5, h6, label {
     font-weight: 700;
@@ -133,7 +150,7 @@ svg:not(:root) {
     overflow: hidden;
 }
 button, input, optgroup, select, textarea {
-    font-family: Roboto Slab, Song Myung, serif;
+    font-family: Raleway, NanumSquareRound, sans-serif;
     font-size: 100%;
     line-height: 1.15;
     margin: 0;
@@ -216,7 +233,7 @@ button {
     padding: .75em 1em;
     color: #fff;
     margin: 0;
-    font-family: Roboto Slab, Song Myung, serif;
+    font-family: Raleway, NanumSquareRound, sans-serif;
     font-weight: 400;
     font-size: .9em;
     background: 0 0;
@@ -306,7 +323,7 @@ input, textarea {
     width: 100%;
     max-width: 100%;
     padding: .75em .5em;
-    font-family: Roboto Slab, Song Myung, serif;
+    font-family: Raleway, NanumSquareRound, sans-serif;
     font-size: .9em;
     font-weight: 400;
     color: #fff;
@@ -436,7 +453,7 @@ iframe {
     height: 100%;
     width: 100%}
 body {
-    font-family: Roboto Slab, Song Myung, serif;
+    font-family: Raleway, NanumSquareRound, sans-serif;
     line-height: 1.7;
     color: #fff;
     background-color: transparent;
@@ -469,7 +486,7 @@ body {
     margin-bottom: 0;
 }
 h2:not(.posts__text):not(.related__text) {
-    font-family: Roboto Slab, Song Myung, serif;
+    font-family: Raleway, NanumSquareRound, sans-serif;
     font-size: 2em;
 }
 @media (min-width:91em) {
@@ -482,7 +499,7 @@ h2:not(.posts__text):not(.related__text) {
 }
 blockquote, q {
     margin: 0 0 1.5rem;
-    font-family: Roboto Slab, Song Myung, serif;
+    font-family: Raleway, NanumSquareRound, sans-serif;
     font-weight: 400;
 }
 @media (min-width:32em) {
@@ -491,7 +508,7 @@ blockquote, q {
 }
 }cite {
     display: block;
-    font-family: Roboto Slab, Song Myung, serif;
+    font-family: Raleway, NanumSquareRound, sans-serif;
     font-size: 14px;
     font-style: normal;
     color: #fff;
@@ -978,7 +995,7 @@ main {
     letter-spacing: 1px;
 }
 #style-guide #markdown, .post-layout #markdown {
-    font-family: Roboto Slab, Song Myung, serif;
+    font-family: Raleway, NanumSquareRound, sans-serif;
 }
 #markdown>* {
     min-width: 100%}
@@ -990,7 +1007,7 @@ main {
 }
 #markdown h1, #markdown h2, #markdown h3, #markdown h4, #markdown h5, #markdown h6 {
     margin-bottom: .5rem;
-    font-family: Roboto Slab, Song Myung, serif;
+    font-family: Raleway, NanumSquareRound, sans-serif;
 }
 #markdown h1 {
     font-size: 2.25em;
@@ -1032,7 +1049,7 @@ main {
 #markdown blockquote p {
     margin-bottom: 0;
     font-size: 14px;
-    font-family: Roboto Slab, Song Myung, serif;
+    font-family: Raleway, NanumSquareRound, sans-serif;
     font-style: italic;
     word-break: keep-all;
     padding-left: 15px;
@@ -1151,7 +1168,7 @@ main {
     padding-top: 1em;
 }
 }.posts__next {
-    font-family: Roboto Slab, Song Myung, serif;
+    font-family: Raleway, NanumSquareRound, sans-serif;
     position: relative;
     z-index: 1;
     cursor: pointer;
