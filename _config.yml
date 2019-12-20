@@ -1,7 +1,7 @@
 # Site/SEO settings
 email: highbrighten@gmail.com
 baseurl: "/blog"
-permalink: /:year/:month/:title
+permalink: /:title
 google_analytics: 
 
 name: mattjo
@@ -42,7 +42,7 @@ autopages:
   tags:
     layouts: 
       - 'tag.html'
-    title: 'The Barber Theme'
+    title: 'Tags'
     permalink: '/:tag'
     slugify:
       mode: raw

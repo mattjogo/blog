@@ -11,7 +11,7 @@
 }.form__message, .header, .header__list>*, .header__title, .post__author, .posts__next, .related__text, .subscribe__error, .subscribe__title, cite, h1, h2, h3, h4, h5, h6, label, strong {
     letter-spacing: .01em;
 }
-.contact__mast, .form__submit, .mast, .post__header, .related__text, .related__title, .subscribe__error, .subscribe__text, .subscribe__title, blockquote, q {
+.contact__mast, .post__header, .form__submit, .mast, .related__text, .related__title, .subscribe__error, .subscribe__text, .subscribe__title, blockquote, q {
     text-align: center;
 }
 .posts__pagination {
@@ -975,7 +975,8 @@ main {
     word-break: keep-all;
     text-align: left;
     font-size: 12px;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
+    text-align: justify;
 }
 #style-guide #markdown, .post-layout #markdown {
     font-family: 'Raleway', 'NanumBarunGothic', sans-serif;
@@ -1131,7 +1132,7 @@ main {
     display: block;
 }
 .posts__text {
-    text-align: left;
+    text-align: justify;
     font-weight: 400;
     word-break: keep-all;
 }
