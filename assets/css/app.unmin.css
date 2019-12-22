@@ -975,7 +975,6 @@ main {
     word-break: keep-all;
     text-align: left;
     font-size: 12px;
-    letter-spacing: 1.5px;
     text-align: justify;
 }
 #style-guide #markdown, .post-layout #markdown {
