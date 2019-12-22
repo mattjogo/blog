@@ -18,7 +18,7 @@
 
 <meta name="twitter:url" content="{{ page.url | absolute_url }}">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} | {{ site.title }}{% else %}{{ site.title | escape }}{% endif %}">
+<meta name="twitter:title" content="{% if page.title %}{{ site.title }}: {{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
 <meta name="twitter:site" content="{{ site.title }}">
 <meta name="twitter:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description }}{% endif %}">
 {% if site.twitter_username %}
