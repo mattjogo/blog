@@ -11,7 +11,7 @@
 }.form__message, .header, .header__list>*, .header__title, .post__author, .posts__next, .related__text, .subscribe__error, .subscribe__title, cite, h1, h2, h3, h4, h5, h6, label, strong {
     letter-spacing: .01em;
 }
-.contact__mast, .post__header, .form__submit, .mast, .related__text, .related__title, .subscribe__error, .subscribe__text, .subscribe__title, blockquote, q {
+.contact__mast, .post__header, .form__submit, .mast, .related__text, .related__title, .subscribe__error, .subscribe__text, .subscribe__title, q {
     text-align: center;
 }
 .posts__pagination {
@@ -1034,6 +1034,7 @@ main {
 #markdown blockquote p {
     margin-bottom: 0;
     font-size: 14px;
+    text-align: justify;
     font-family: 'Raleway', 'NanumBarunGothic', sans-serif;
     font-display: fallback;
     font-style: italic;
