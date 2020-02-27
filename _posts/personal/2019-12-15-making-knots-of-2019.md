@@ -3,6 +3,7 @@ layout: post
 title: "2019년 매듭짓기 - 1월에서 12월까지의 에피소드"
 date: 2019-12-15 23:14:54 +0900
 tags: ["p"]
+published: false
 ---
 
 [@little2ndroom](https://twitter.com/little2ndroom)님이 만드신 것을 기반으로, [욘욘슨의 집](https://blog.naver.com/helvetica_dsgn)에서 가져와서 살짝 비틀어 썼습니다.

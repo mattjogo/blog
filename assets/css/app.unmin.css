@@ -565,9 +565,13 @@ img.zoom-img {
     cursor: default;
 }
 .footer {
-    color: #fff;
     background: transparent;
     border-top: 0;
+}
+.footer a {
+    size: 10px;
+    color: #fff;
+    font-style: italic;
 }
 .footer__container {
     margin-top: 3em;
@@ -975,7 +979,7 @@ main {
     word-break: keep-all;
     text-align: left;
     font-size: 12px;
-    text-align: justify;
+    text-align: left;
 }
 #style-guide #markdown, .post-layout #markdown {
     font-family: 'Raleway', 'NanumBarunGothic', sans-serif;
@@ -1034,7 +1038,7 @@ main {
 #markdown blockquote p {
     margin-bottom: 0;
     font-size: 14px;
-    text-align: justify;
+    text-align: left;
     font-family: 'Raleway', 'NanumBarunGothic', sans-serif;
     font-display: fallback;
     font-style: italic;
@@ -1132,7 +1136,7 @@ main {
     display: block;
 }
 .posts__text {
-    text-align: justify;
+    text-align: left;
     font-weight: 400;
     word-break: keep-all;
 }
