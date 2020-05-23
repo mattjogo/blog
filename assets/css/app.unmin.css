@@ -1035,11 +1035,11 @@ main {
 }
 #markdown p {
     margin-bottom: 1.5rem;
-    font-size: 1.1em;
+    font-size: 1.4em;
 }
 @media (min-width:32em) {
     #markdown p {
-    font-size: 1.25em;
+    font-size: 1.2em;
 }
 }#markdown p img {
     margin-bottom: 0;
