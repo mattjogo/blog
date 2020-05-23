@@ -5,7 +5,7 @@ title: ⛓
 --- 
 
 ### 🧢
-[instagram](https://instagram.com/chosenneocitykid) [apple music](https://itunes.apple.com/profile/mattjogo) [watcha](https://watcha.com/users/WwRqopRL1vlzB)
+[instagram](https://instagram.com/angmokido) [apple music](https://itunes.apple.com/profile/mattjogo) [watcha](https://watcha.com/users/WwRqopRL1vlzB)
 
 ### 🧞‍♂️
 [home union](http://homeunion.dothome.co.kr) [roman realizer](http://romanrealizer.dothome.co.kr)

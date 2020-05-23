@@ -3,10 +3,10 @@ layout: post
 title: "2019년 매듭짓기 - 1월에서 12월까지의 에피소드"
 date: 2019-12-15 23:14:54 +0900
 tags: ["p"]
-published: false
+published: true
 ---
 
-[@little2ndroom](https://twitter.com/little2ndroom)님이 만드신 것을 기반으로, [욘욘슨의 집](https://blog.naver.com/helvetica_dsgn)에서 가져와서 살짝 비틀어 썼습니다.
+[욘욘슨의 집](https://blog.naver.com/helvetica_dsgn)에서 가져와서 살짝 비틀어 썼습니다.
 
 ### 1월의 에피소드
 오랫동안 투병 생활을 하셨던 할머니가 돌아가셨고, 이에 급하게 귀국을 했다. 시드니를 제대로 보지 못한 것이 조금 후회가 되기는 하지만, 2018년 31일에서 2019년 1월 1일로 넘어가던 때의 불꽃놀이는 잊히질 않는다. 아버지가 좋은 코트를 한 벌 사주셨고, 헤어짐이 왠지 짠했던 교환학생 시절의 싱가포르 친구를 다시 한국에서 만났다.
