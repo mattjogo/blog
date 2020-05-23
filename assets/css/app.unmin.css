@@ -1038,6 +1038,9 @@ main {
     font-size: 1.4em;
 }
 @media (min-width:32em) {
+    #markdown ul > li {
+    font-size: 1.2em;
+}
     #markdown p {
     font-size: 1.2em;
 }
