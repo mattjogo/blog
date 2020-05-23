@@ -6,7 +6,7 @@
 }
 @media (min-width:32em) {
     .post__author, .post__bio, .posts__text, .related__text {
-    font-size: .9em;
+    font-size: .8em;
 }
 }.form__message, .header, .header__list>*, .header__title, .post__author, .posts__next, .related__text, .subscribe__error, .subscribe__title, cite, h1, h2, h3, h4, h5, h6, label, strong {
     letter-spacing: .01em;
@@ -130,7 +130,7 @@ svg:not(:root) {
     overflow: hidden;
 }
 button, input, optgroup, select, textarea {
-    font-family: 'Raleway', 'NanumBarunGothic', sans-serif;
+    font-family: 'Roboto Slab', 'Iropke Batang', serif;
     font-size: 100%;
     line-height: 1.15;
     margin: 0;
@@ -213,7 +213,7 @@ button {
     padding: .75em 1em;
     color: #fff;
     margin: 0;
-    font-family: 'Raleway', 'NanumBarunGothic', sans-serif;
+    font-family: 'Roboto Slab', 'Iropke Batang', serif;
     font-weight: 400;
     font-size: .9em;
     background: 0 0;
@@ -303,7 +303,7 @@ input, textarea {
     width: 100%;
     max-width: 100%;
     padding: .75em .5em;
-    font-family: 'Raleway', 'NanumBarunGothic', sans-serif;
+    font-family: 'Roboto Slab', 'Iropke Batang', serif;
     font-size: .9em;
     font-weight: 400;
     color: #fff;
@@ -433,7 +433,7 @@ iframe {
     height: 100%;
     width: 100%}
 body {
-    font-family: 'Raleway', 'NanumBarunGothic', sans-serif;
+    font-family: 'Roboto Slab', 'Iropke Batang', serif;
     font-display: fallback;
     line-height: 1.7;
     color: #fff;
@@ -467,12 +467,12 @@ body {
     margin-bottom: 0;
 }
 h2:not(.posts__text):not(.related__text) {
-    font-family: 'Raleway', 'NanumBarunGothic', sans-serif;
-    font-size: 2em;
+    font-family: 'Roboto Slab', 'Iropke Batang', serif;
+    font-size: 1.5em;
 }
 @media (min-width:91em) {
     h2: not(.posts__text):not(.related__text) {
-    font-size: 2.25em;
+    font-size: 1.75em;
 }
 }p {
     margin-top: 0;
@@ -480,17 +480,17 @@ h2:not(.posts__text):not(.related__text) {
 }
 blockquote, q {
     margin: 0 0 1.5rem;
-    font-family: 'Raleway', 'NanumBarunGothic', sans-serif;
+    font-family: 'Roboto Slab', 'Iropke Batang', serif;
     font-display: fallback;
     font-weight: 400;
 }
 @media (min-width:32em) {
     blockquote, q {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 }cite {
     display: block;
-    font-family: 'Raleway', 'NanumBarunGothic', sans-serif;
+    font-family: 'Roboto Slab', 'Iropke Batang', serif;
     font-display: fallback;
     font-size: 14px;
     font-style: normal;
@@ -978,11 +978,11 @@ main {
     align-items: center;
     word-break: keep-all;
     text-align: left;
-    font-size: 12px;
-    text-align: left;
+    font-size: 0.65em;
+    text-align: justify;
 }
 #style-guide #markdown, .post-layout #markdown {
-    font-family: 'Raleway', 'NanumBarunGothic', sans-serif;
+    font-family: 'Roboto Slab', 'Iropke Batang', serif;
     font-display: fallback;
 }
 #markdown>* {
@@ -995,8 +995,17 @@ main {
 }
 #markdown h1, #markdown h2, #markdown h3, #markdown h4, #markdown h5, #markdown h6 {
     margin-bottom: .5rem;
-    font-family: 'Raleway', 'NanumBarunGothic', sans-serif;
+    font-family: 'Roboto Slab', 'Iropke Batang', serif;
     font-display: fallback;
+}
+#markdown ul {
+    list-style-type: none;
+}
+#markdown ul > li {
+    text-indent: -5px;
+}
+#markdown br {
+    display: none;
 }
 #markdown h1 {
     font-size: 2.25em;
@@ -1037,9 +1046,8 @@ main {
 }
 #markdown blockquote p {
     margin-bottom: 0;
-    font-size: 14px;
-    text-align: left;
-    font-family: 'Raleway', 'NanumBarunGothic', sans-serif;
+    text-align: justify;
+    font-family: 'Roboto Slab', 'Iropke Batang', serif;
     font-display: fallback;
     font-style: italic;
     word-break: keep-all;
@@ -1059,9 +1067,6 @@ main {
     margin-bottom: 1.5rem;
     border: 0;
     background-color: rgba(0, 0, 0, .1);
-}
-#markdown br {
-    display: none;
 }
 #markdown img {
     display: block;
@@ -1136,7 +1141,7 @@ main {
     display: block;
 }
 .posts__text {
-    text-align: left;
+    text-align: justify;
     font-weight: 400;
     word-break: keep-all;
 }
@@ -1159,7 +1164,7 @@ main {
     padding-top: 1em;
 }
 }.posts__next {
-    font-family: 'Raleway', 'NanumBarunGothic', sans-serif;
+    font-family: 'Roboto Slab', 'Iropke Batang', serif;
     position: relative;
     z-index: 1;
     cursor: pointer;
