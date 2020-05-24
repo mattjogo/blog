@@ -1003,6 +1003,7 @@ main {
 }
 #markdown ul > li {
     text-indent: -5px;
+    font-size: 1.2em;
 }
 #markdown br {
     display: none;
@@ -1038,11 +1039,11 @@ main {
     font-size: 1.4em;
 }
 @media (min-width:32em) {
-    #markdown ul > li {
-    font-size: 1.2em;
-}
     #markdown p {
     font-size: 1.2em;
+}
+#markdown ul > li {
+    font-size: 1em;
 }
 }#markdown p img {
     margin-bottom: 0;
