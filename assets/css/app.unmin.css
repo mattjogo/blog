@@ -436,8 +436,7 @@ iframe {
 body {
     font-family: 'Montserrat', 'Nanum Gothic', sans-serif;
     font-display: fallback;
-    line-height: 1.8;
-    letter-spacing: 0.5px;
+    line-height: 2.0;
     color: #fff;
     background-color: transparent;
 }
