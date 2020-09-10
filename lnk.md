@@ -5,8 +5,7 @@ title: ⛓
 --- 
 
 ### 🧢
-[instagram](https://instagram.com/angmokido) [apple music](https://itunes.apple.com/profile/mattjogo) [watcha](https://watcha.com/users/WwRqopRL1vlzB)
+[인스타그램](https://instagram.com/chosencitykid) [애플뮤직](https://itunes.apple.com/profile/mattjogo) [왓챠피디아](https://watcha.com/users/WwRqopRL1vlzB)
 
 ### 🧞‍♂️
-[home union](http://homeunion.dothome.co.kr) [roman realizer](http://romanrealizer.dothome.co.kr)
-[naiveboy](http://naiveboy.net) [untitled](https://ovnnn.com) [dynekim](https://dynekim.tistory.com) [hyeok](https://hyeok.net)
+[홈동맹](http://homeunion.dothome.co.kr) [naiveboy](http://naiveboy.net) [dynekim](https://dynekim.tistory.com) [혁이네란제리](https://hyeok.net)
